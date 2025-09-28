@@ -1,0 +1,12 @@
+# Normaliser les fins de ligne
+* text=auto
+
+# Forcer certains fichiers en LF
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Windows only (exécutables/scripts batch)
+*.bat text eol=crlf
+*.cmd text eol=crlf
